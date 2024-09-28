@@ -1,13 +1,7 @@
-using Estudo.Api.Domain.Entities.Base;
+namespace Estudo.Api.Application.DTOs;
 
-namespace Estudo.Api.Domain.Entities;
-
-public class Movie : IEntitiesBase
+public class MovieDto
 {
-    public Movie()
-    {
-        MovieId = new Guid();
-    }
     public Guid MovieId { get; set; }
     public bool Adult { get; set; }
     public string OriginalLanguage { get; set; }
@@ -19,7 +13,4 @@ public class Movie : IEntitiesBase
     public decimal VoteAverage { get; set; }
     public decimal VoteCount { get; set; }
     public string BackdropPath { get; set; }
-    public DateTime CreateDate { get; set; }
-    public DateTime? UpdateDate { get; set; }
-    public bool Active { get; set; }
 }

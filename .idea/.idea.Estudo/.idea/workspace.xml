@@ -9,30 +9,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e802a61-d8f5-46ba-9e2a-efac36b55b18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Estudo.Application/Interface/IProdutoAppService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/IProdutoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Services/ProdutoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DbContextExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/MovieApi/MovieApi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Api/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Controllers/ProdutoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Application/DTOs/ProdutoDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Application/Application/DTOs/ProdutoDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Application/Services/ProdutoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Application/Application/Services/ProdutoAppService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Domain/Entities/Produto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Produto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Domain/Repositories/IProdutoRepository.cs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Repositories/IProdutoRepository.cs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Domain/Services/IProdutoService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Estudo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Estudo.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Infrastructure/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Infrastructure/Repositories/ProdutoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/ProdutoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Migrations/20240925012344_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Migrations/20240925012344_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Api/Controllers/MovieController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Application/Application/DTOs/MovieDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Application/Application/Services/MovieAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Application/Interface/Base/IAppServiceBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Application/Interface/IMovieAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Application/Mappings/MovieMapping.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Base/IEntitiesBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/Base/IRepositoryBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/IMovieRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/Base/IServiceBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/IMovieService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Services/MovieService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/MovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Api/Controllers/ProdutoController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Application/Application/DTOs/ProdutoDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Application/Application/Services/ProdutoAppService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Application/Interface/IProdutoAppService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Produto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/IProdutoService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Repositories/IProdutoRepository.cs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Services/ProdutoService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Migrations/20240925234435_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Migrations/20240925234435_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/ProdutoRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Estudo.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Estudo.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Estudo">
     <configuration name="Estudo" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Estudo.Api/Estudo.Api.csproj" />
@@ -144,6 +149,7 @@
       <workItem from="1727305081302" duration="82000" />
       <workItem from="1727305188819" duration="35000" />
       <workItem from="1727306004168" duration="3192000" />
+      <workItem from="1727550795909" duration="2317000" />
     </task>
     <servers />
   </component>
@@ -152,27 +158,19 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Estudo.Api/Controllers/ProdutoController.cs</url>
-          <line>26</line>
-          <properties documentPath="D:\EstudoApi\Estudo.Api\Controllers\ProdutoController.cs" containingFunctionPresentation="Method 'Create'">
-            <startOffsets>
-              <option value="716" />
-            </startOffsets>
-            <endOffsets>
-              <option value="762" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

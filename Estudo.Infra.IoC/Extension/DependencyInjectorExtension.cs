@@ -12,9 +12,9 @@ public static class DependencyInjectorExtension
 {
     public static IServiceCollection AddDependencyConfig(this IServiceCollection services)
     {
-        services.AddScoped<IProdutoRepository, ProdutoRepository>();
-        services.AddScoped<IProdutoAppService, ProdutoAppService>();
-        services.AddScoped<IProdutoService, ProdutoService>();
+        services.AddScoped<IMovieRepository, MovieRepository>();
+        services.AddScoped<IMovieAppService, MovieAppService>();
+        services.AddScoped<IMovieService, MovieService>();
 
         return services;
     }
