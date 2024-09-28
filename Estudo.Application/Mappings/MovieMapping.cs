@@ -1,5 +1,6 @@
 using Estudo.Api.Application.DTOs;
 using Estudo.Api.Domain.Entities;
+using System.Runtime.CompilerServices;
 
 namespace Estudo.Application.Mappings;
 
@@ -40,5 +41,19 @@ public class MovieMapping
             VoteCount = movie.VoteCount,
         };
     }
-    
+
+    public static Movie MapToUpdate(Movie movie, MovieDto movieDto)
+    {
+        movie.Adult = movieDto.Adult;
+        movie.Overview = movieDto.Overview;
+        movie.Popularity = movieDto.Popularity;
+        movie.Title = movieDto.Title;
+        movie.BackdropPath = movieDto.BackdropPath;
+        movie.OriginalTitle = movieDto.OriginalTitle;
+        movie.OriginalLanguage = movieDto.OriginalLanguage;
+        movie.VoteAverage = movieDto.VoteAverage;
+        movie.IdMovieApi = movieDto.IdMovieApi;
+        movie.VoteCount = movieDto.VoteCount;
+        return movie;
+    }
 }

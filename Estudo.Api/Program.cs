@@ -1,10 +1,4 @@
-using Estudo.Api.Application.Services;
-using Estudo.Api.Domain.Repositories;
-using Estudo.Api.Domain.Services;
-using Estudo.Api.Infrastructure.Data;
-using Estudo.Api.Infrastructure.Repositories;
 using Estudo.Infra.IoC.DependencyInjector;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

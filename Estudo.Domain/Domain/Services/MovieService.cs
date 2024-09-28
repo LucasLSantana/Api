@@ -14,28 +14,29 @@ public class MovieService : IMovieService
         _movieRepository = movieRepository;
     }
 
-    public async Task<Movie> Get(Guid id)
+    public async Task<Movie> GetAsync(Guid id)
     {
-        return await _movieRepository.Get(id);
+        return await _movieRepository.GetAsync(id);
     }
 
-    public async Task Add(Movie entity)
+    public async Task AddAsync(Movie entity)
     {
-        await _movieRepository.Add(entity);
+        await _movieRepository.AddAsync(entity);
     }
 
-    public async Task Update(Movie entity)
+    public async Task UpdateAsync(Movie entity)
     {
-        await _movieRepository.Update(entity);
+        await _movieRepository.UpdateAsync(entity);
     }
 
-    public async Task Delete(Movie entity)
+    public async Task DeleteAsync(Movie entity)
     {
-        await _movieRepository.Delete(entity);
+        if (entity is null) throw new Exception("Filme não encontrado");
+        await _movieRepository.DeleteAsync(entity);
     }
 
-    public async Task<List<Movie>> GetAll()
+    public async Task<List<Movie>> GetAllAsync()
     {
-        return await _movieRepository.GetAll();
+        return await _movieRepository.GetAllAsync();
     }
 }

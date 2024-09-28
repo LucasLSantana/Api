@@ -14,31 +14,31 @@ public class MovieRepository : IMovieRepository
         _context = context;
     }
 
-    public async Task<Movie> Get(Guid id)
+    public async Task<Movie> GetAsync(Guid id)
     {
         return await _context.Movie.FirstOrDefaultAsync(a => a.MovieId == id);
     }
 
-    public async Task Add(Movie entity)
+    public async Task AddAsync(Movie entity)
     {
         await _context.Movie.AddAsync(entity);
         await _context.SaveChangesAsync();
     }
 
-    public async Task Update(Movie entity)
-    { 
+    public async Task UpdateAsync(Movie entity)
+    {
         _context.Movie.Update(entity);
         await _context.SaveChangesAsync();
     }
 
-    public async Task Delete(Movie entity)
+    public async Task DeleteAsync(Movie entity)
     {
-       _context.Movie.Remove(entity);
-       await _context.SaveChangesAsync();
+        _context.Movie.Remove(entity);
+        await _context.SaveChangesAsync();
     }
 
-    public async Task<List<Movie>> GetAll()
+    public async Task<List<Movie>> GetAllAsync()
     {
-        return await _context.Movie.Where(a=>a.Active).ToListAsync();
+        return await _context.Movie.Where(a => a.Active).ToListAsync();
     }
 }

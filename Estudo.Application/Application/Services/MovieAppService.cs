@@ -1,5 +1,4 @@
 using Estudo.Api.Application.DTOs;
-using Estudo.Api.Domain.Entities;
 using Estudo.Api.Domain.Services;
 using Estudo.Application.Interface;
 using Estudo.Application.Mappings;
@@ -14,34 +13,35 @@ public class MovieAppService : IMovieAppService
         _movieService = movieService;
     }
 
-    public async Task<MovieDto> Get(Guid id)
+    public async Task<MovieDto> GetAsync(Guid id)
     {
-      var movie = await _movieService.Get(id);
+      var movie = await _movieService.GetAsync(id);
       return MovieMapping.MapToDto(movie);
     }
 
-    public async Task Add(MovieDto dto)
+    public async Task AddAsync(MovieDto dto)
     {
         var movie = MovieMapping.MapToEntitie(dto);
-        await _movieService.Add(movie);
+        await _movieService.AddAsync(movie);
     }
 
-    public async Task Update(MovieDto dto)
-    { 
-        var movie = MovieMapping.MapToEntitie(dto);
-        await _movieService.Update(movie);
-    }
-
-    public async Task Delete(MovieDto dto)
+    public async Task UpdateAsync(MovieDto dto)
     {
-        var movie = MovieMapping.MapToEntitie(dto);
-        await _movieService.Delete(movie);
+        var movie = await _movieService.GetAsync(dto.MovieId);
+        movie = MovieMapping.MapToUpdate(movie, dto);
+        await _movieService.UpdateAsync(movie);
     }
 
-    public async Task<List<MovieDto>> GetAll()
+    public async Task DeleteAsync(Guid id)
+    {
+        var movie = await _movieService.GetAsync(id);
+        await _movieService.DeleteAsync(movie);
+    }
+
+    public async Task<List<MovieDto>> GetAllAsync()
     {
         var dtoList = new List<MovieDto>();
-        var movies =  await _movieService.GetAll();
+        var movies =  await _movieService.GetAllAsync();
 
         foreach (var movie in movies)        
         {
