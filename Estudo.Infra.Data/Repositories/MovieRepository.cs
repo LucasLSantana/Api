@@ -41,4 +41,15 @@ public class MovieRepository : IMovieRepository
     {
         return await _context.Movie.Where(a => a.Active).ToListAsync();
     }
+
+    public async Task AddRangeAsync(List<Movie> movies)
+    {
+        await _context.Movie.AddRangeAsync(movies);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task UpdateRangeAsync(List<Movie> movies)
+    {
+        await _context.SaveChangesAsync();
+    }
 }

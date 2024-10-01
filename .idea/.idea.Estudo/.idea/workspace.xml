@@ -9,34 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e802a61-d8f5-46ba-9e2a-efac36b55b18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Estudo.Api/Controllers/MovieController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Application/Application/DTOs/MovieDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Application/Application/Services/MovieAppService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Application/Interface/Base/IAppServiceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Application/Interface/IMovieAppService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Application/Mappings/MovieMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Base/IEntitiesBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/Base/IRepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/IMovieRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/Base/IServiceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/IMovieService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Services/MovieService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/MovieRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/HangFire/IIntegrateMoviesJobs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/HangFireExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/HangFireJobs/IntegrateMoviesJobs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Api/Controllers/ProdutoController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Application/Application/DTOs/ProdutoDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Application/Application/Services/ProdutoAppService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Application/Interface/IProdutoAppService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Movie.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Entities/Produto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Services/IProdutoService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Repositories/IProdutoRepository.cs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Services/ProdutoService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Migrations/20240925234435_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Migrations/20240925234435_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/ProdutoRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/IMovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/IMovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/MovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/MovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.IoC/Estudo.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Estudo.Infra.IoC.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +32,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0da8a94897c945419a9935a75f4e9b6a531020/5b/9b6b777f/TimeZoneInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17e7c20b4ce64a76801368e9693968d51fd5c0/44/bed08250/EntityFrameworkServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28b236b45b2069a1eda3696c06a51f4c6d17c924ff4ce494859ec9d23c707/HangfireServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2e4305d8867756e7b17dbfec583104491e29edfe21dfca1cc6a80a7fb27b3d5/RelationalQueryableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/635c253672d584cb51dc81ca3a14e332ff58b657d7dcc93b5253d534be0fc/ITimeZoneResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/816dbaba8a29ece3dd3dc326642858d27d2d19142f9a2109bb04617985ec9/ExecutionContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8c5b4c90c0e474dbcd8d387139bce9e32409136d0831faa08fedd6b5524b2/JobStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aacc74311ca994f12b71cddb22241be9d6654c65e94f5985c5488dee396916f/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b552809dd28792a6abf71d37284b361728f3342e59d83189d080b9c6151e4673/BackgroundJobServerOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7579674be1d6bb86128897a5fc9a733aa3ada8d9f679b85a1774e65b7be15/DashboardOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca9877508bdecc22c35f9583f5811a4d0ceb0d3210e36ffe2a7e55de88/SqlServerStorageExtensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -150,6 +141,8 @@
       <workItem from="1727305188819" duration="35000" />
       <workItem from="1727306004168" duration="3192000" />
       <workItem from="1727550795909" duration="2317000" />
+      <workItem from="1727737050556" duration="2405000" />
+      <workItem from="1727739759497" duration="4410000" />
     </task>
     <servers />
   </component>
@@ -172,5 +165,37 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Estudo.Infra.IoC/HangFireJobs/IntegrateMoviesJobs.cs</url>
+          <line>83</line>
+          <properties documentPath="D:\EstudoApi\Estudo.Infra.IoC\HangFireJobs\IntegrateMoviesJobs.cs" containingFunctionPresentation="Method 'IntegrateMovies'">
+            <startOffsets>
+              <option value="3183" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3228" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Estudo.Infra.IoC/HangFireJobs/IntegrateMoviesJobs.cs</url>
+          <line>44</line>
+          <properties documentPath="D:\EstudoApi\Estudo.Infra.IoC\HangFireJobs\IntegrateMoviesJobs.cs" containingFunctionPresentation="Method 'IntegrateMovies'">
+            <startOffsets>
+              <option value="1656" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1680" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
