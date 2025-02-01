@@ -9,16 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e802a61-d8f5-46ba-9e2a-efac36b55b18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/HangFire/IIntegrateMoviesJobs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/HangFireExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/HangFireJobs/IntegrateMoviesJobs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Api/Estudo.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/Estudo.Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estudo.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/IMovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Domain/Interfaces/Repositories/IMovieRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/MovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Repositories/MovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Application/Estudo.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Application/Estudo.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Domain/Estudo.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Domain/Estudo.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.Data/Estudo.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.Data/Estudo.Infra.Data.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estudo.Infra.IoC/Estudo.Infra.IoC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Estudo.Infra.IoC.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/DependencyInjectorExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/HangFireExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.Infra.IoC/Extension/HangFireExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Estudo.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Estudo.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\lsantana\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\lsantana\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\lsantana\\AppData\\Local\\Symbols\\src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Estudo">
     <configuration name="Estudo" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Estudo.Api/Estudo.Api.csproj" />
@@ -143,6 +148,7 @@
       <workItem from="1727550795909" duration="2317000" />
       <workItem from="1727737050556" duration="2405000" />
       <workItem from="1727739759497" duration="4410000" />
+      <workItem from="1738373060337" duration="176000" />
     </task>
     <servers />
   </component>
@@ -163,7 +169,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -172,27 +177,13 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Estudo.Infra.IoC/HangFireJobs/IntegrateMoviesJobs.cs</url>
           <line>83</line>
-          <properties documentPath="D:\EstudoApi\Estudo.Infra.IoC\HangFireJobs\IntegrateMoviesJobs.cs" containingFunctionPresentation="Method 'IntegrateMovies'">
-            <startOffsets>
-              <option value="3183" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3228" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\EstudoApi\Estudo.Infra.IoC\HangFireJobs\IntegrateMoviesJobs.cs" containingFunctionPresentation="Method 'IntegrateMovies'" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Estudo.Infra.IoC/HangFireJobs/IntegrateMoviesJobs.cs</url>
           <line>44</line>
-          <properties documentPath="D:\EstudoApi\Estudo.Infra.IoC\HangFireJobs\IntegrateMoviesJobs.cs" containingFunctionPresentation="Method 'IntegrateMovies'">
-            <startOffsets>
-              <option value="1656" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1680" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\EstudoApi\Estudo.Infra.IoC\HangFireJobs\IntegrateMoviesJobs.cs" containingFunctionPresentation="Method 'IntegrateMovies'" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
