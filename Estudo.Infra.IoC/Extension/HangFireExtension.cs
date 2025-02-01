@@ -33,11 +33,10 @@ public static class HangFireExtension
             options.TimeZoneResolver = new DefaultTimeZoneResolver();
         });
         
-        //StartJobs();
         return services;
     }
     public static void StartJobs()
     {
-        RecurringJob.AddOrUpdate<IIntegrateMoviesJobs>("Integrate Movies", x => x.IntegrateMovies(1) , Cron.Daily, TimeZoneInfo.Utc);
+        RecurringJob.AddOrUpdate<IIntegrateMoviesJobs>("Integrate Movies", x => x.IntegrateMovies(1) , Cron.Daily);
     }
 }
